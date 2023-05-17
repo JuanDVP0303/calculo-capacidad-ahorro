@@ -1,4 +1,4 @@
-# calculo-capacidad-ahorro
+# Calcule su capacidad de ahorro
 Una pequeña calculadora en la cual puedes calcular tu capacidad de ahorro, La capacidad de ahorro, es la cantidad de dinero que le sobra al realizar sus gastos indispensables en el mes, hacer un buen uso de este dinero extra podría lograr mejorar sus finanzas y administrar mucho mejor su dinero
 
 Indicaciones: Nada mas sencillo que colocar en los respectivos campos de entrada sus ingresos mensuales y los gastos mensuales (tanto necesidades basicas, como gastos personales y no prioritarios) esto le devolvera el porcentaje de sueldo que tiene disponible para ahorrar y ademas del monto que le queda para ahorrar tambien
