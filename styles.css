@@ -1,0 +1,101 @@
+:root{
+	--white: white;
+	--alice-blue: aliceblue;
+
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html{
+	font-family: 'Noto Sans', sans-serif;
+}
+/*Posicionamiento de los contenedores*/
+main{
+	width: 100%;
+	height: 100vh;
+	display: grid;
+	grid-auto-flow: column;
+	grid-auto-columns: 1fr;
+	place-content: center;
+	gap: 0;
+}
+
+.none{
+display: none;
+}
+
+.container{
+	min-width: 50%;
+	height: 90%;
+	justify-self: center;
+	display: flex;
+	flex-direction: column;
+	border-radius: 20px;
+	background: #373B44;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: var(--alice-blue);
+	margin: 50px 0;
+}
+
+
+.container-textos{
+	text-align: center;
+	padding: 30px 40px;
+}
+
+.container-textos.texto-opcional{
+	border-radius: 20px;
+	padding-top: 80px;
+	color: white;
+	width: 80%;
+	background: #659999;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container-procesos{
+	text-align: center;
+	display: grid;
+	align-items: center;
+}
+
+.container-procesos button{
+	margin-top:20px ;
+	width: 100px;
+	cursor: pointer;
+	margin-top: 30px;
+	justify-self: center;
+	border-radius: 20px;
+	background: none;
+	padding: 10px;
+	border: 2px solid white;
+	color: white;
+}
+
+.container-procesos label{
+	display: flex;
+	flex-direction: column;
+	place-items: center;
+}
+
+.container-procesos input{
+	width: 180px;
+}
+
+.container-procesos-resultado{
+	display: flex;
+	justify-content: center;
+}
+
+
+.paragraph{
+	text-align: center;
+	width: 300px;
+	padding: 30px 30px 0 30px;
+}
